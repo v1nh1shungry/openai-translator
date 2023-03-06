@@ -13,3 +13,20 @@ OpenAI-powered translator.
 * Select and translate.
 * Only translate into Chinese.
 * Will **ruin** your clipboard. Be careful!
+
+# Installation
+
+* [Release](https://github.com/v1nh1shungry/openai-translator/releases/latest)
+* If you happen to use [scoop](https://github.com/ScoopInstaller/Scoop), you can install it from the bucket I maintain.
+  ```
+  $ scoop bucket add sofa https://github.com/v1nh1shungry/Sofa.git
+  $ scoop install openai-translator
+  ```
+
+# Usage
+
+Fill the `<INSTALLATION DIRECTORY>/config.json`'s `apikey` field with your [OpenAI API key](https://platform.openai.com/account/api-keys).
+
+# Credit
+
+[yetone/openai-translator](https://github.com/yetone/openai-translator)
